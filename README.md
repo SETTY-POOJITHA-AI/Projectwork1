@@ -1,58 +1,69 @@
-## Title of the Project
-Small description about the project like one below
-The integration of a chatbot within a hostel booking system, aimed at streamlining the reservation process for students and improving the overall user experience.
+## LUNG TUMOR SEGMENTATION USING DEEP LEARNING
+
+The classification of lung tumors is essential for determining personalized treatment plans and improving patient prognosis. Non-small cell lung cancer (NSCLC), which accounts for the majority of cases, includes subtypes like adenocarcinoma, squamous cell carcinoma, and large cell carcinoma. Small cell lung cancer (SCLC), although less common, is known for its rapid growth and early spread. Advances in imaging and molecular diagnostics have improved the identification of these subtypes. Machine learning techniques are now being applied to automate tumor classification, utilizing vast amounts of data for more precise and rapid diagnosis. Early and accurate classification of lung tumors can significantly impact survival rates by enabling tailored therapeutic strategies and prompt intervention.
 
 ## About
 <!--Detailed Description about the project-->
-Tailored Chatbot for Hostel Booking System is a project designed to integrate a chatbot that leverages advanced natural language processing techniques to understand and respond to user queries to the hostel booking system. Traditional hostel booking processes are often time-consuming and involve manual searches and extensive communication with hostel staff. This project seeks to overcome these challenges by creating an easy-to-use chatbot interface that assists students in addressing inquiries.
+
+The brain tumor segmentation project focuses on developing an advanced deep learning model to accurately identify and delineate brain tumors from MRI scans.
+Utilizing state-of-the-art algorithms, such as U-Net and CNNs, the model aims to enhance diagnostic accuracy and efficiency in clinical settings.
+The project leverages various machine learning and image processing techniques to automate the segmentation process, minimizing human error and expediting diagnosis. 
+By providing precise tumor segmentation, this project not only supports medical professionals in making informed treatment decisions but also contributes to the ongoing research in medical imaging and artificial intelligence applications in healthcare.
 
 ## Features
 <!--List the features of the project as shown below-->
-- Implements advance neural network method.
-- A framework based application for deployment purpose.
-- High scalability.
-- Less time complexity.
-- A specific scope of Chatbot response model, using json data format.
+- Automated Tumor Identification  
+- High Accuracy  
+- Adaptability  
+- Tumor Tracking  
+- User-Friendly Interface  
 
 ## Requirements
-<!--List the requirements of the project as shown below-->
 * Operating System: Requires a 64-bit OS (Windows 10 or Ubuntu) for compatibility with deep learning frameworks.
-* Development Environment: Python 3.6 or later is necessary for coding the sign language detection system.
-* Deep Learning Frameworks: TensorFlow for model training, MediaPipe for hand gesture recognition.
-* Image Processing Libraries: OpenCV is essential for efficient image processing and real-time hand gesture recognition.
+* Development Environment: Python 3.6 or later is necessary for coding.
+* Deep Learning Frameworks: PyTorch, PyTorch Lightning, and Torchvision for model training, along with Numpy and visualization libraries for efficient data handling and results analysis.
+* Image Processing Libraries: OpenCV for image manipulation and PIL for handling and converting images, enabling efficient pre-processing and augmentation of MRI scans.
 * Version Control: Implementation of Git for collaborative development and effective code management.
-* IDE: Use of VSCode as the Integrated Development Environment for coding, debugging, and version control integration.
-* Additional Dependencies: Includes scikit-learn, TensorFlow (versions 2.4.1), TensorFlow GPU, OpenCV, and Mediapipe for deep learning tasks.
+* IDE: Use of Google Colab as the Integrated Development Environment for coding, debugging, and version control integration.
+* Additional Dependencies: Includes NumPy, Matplotlib, scikit-learn, Pandas, TorchMetrics for deep learning tasks.
 
 ## System Architecture
-<!--Embed the system architecture diagram as shown below-->
 
-![Screenshot 2023-11-25 133637](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/a60c11f3-0a11-47fb-ac89-755d5f45c995)
+![image](https://github.com/user-attachments/assets/72f7dbad-4cf6-4cdd-a669-d74a7f85325b)
 
 
 ## Output
 
-<!--Embed the Output picture at respective places as shown below as shown below-->
-#### Output1 - Name of the output
+####  Shape of the mask :
 
-![Screenshot 2023-11-25 134037](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/8c2b6b5c-5ed2-4ec4-b18e-5b6625402c16)
+![image](https://github.com/user-attachments/assets/4e9b385d-8f42-4381-9939-a55c7c9949ad)
 
-#### Output2 - Name of the output
-![Screenshot 2023-11-25 134253](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/5e05c981-05ca-4aaa-aea2-d918dcf25cb7)
 
-Detection Accuracy: 96.7%
+#### Tumor segmentation using axial view :
+
+![image](https://github.com/user-attachments/assets/c3a9899c-05d2-4d27-9b60-e74e91a0abda)
+
+
+Detection Accuracy: 90%
 Note: These metrics can be customized based on your actual performance evaluations.
 
 
 ## Results and Impact
-<!--Give the results and impact as shown below-->
-The Sign Language Detection System enhances accessibility for individuals with hearing and speech impairments, providing a valuable tool for inclusive communication. The project's integration of computer vision and deep learning showcases its potential for intuitive and interactive human-computer interaction.
 
-This project serves as a foundation for future developments in assistive technologies and contributes to creating a more inclusive and accessible digital environment.
+The brain tumor segmentation model achieves an accuracy of **85-90% Dice Similarity Coefficient (DSC)**, effectively identifying and delineating tumor regions in MRI scans with high precision and recall.
+This high accuracy validates the model’s reliability, making it a valuable diagnostic aid for medical professionals. 
+It demonstrates promise in enhancing efficiency and accuracy in brain tumor detection.
+The model enhances diagnostic support and treatment planning by providing precise brain tumor segmentation, aiding faster diagnoses and tailored care. 
+Additionally, it supports research, increases accessibility, and holds potential for early tumor detection, improving overall healthcare outcomes.
 
 ## Articles published / References
-1. N. S. Gupta, S. K. Rout, S. Barik, R. R. Kalangi, and B. Swampa, “Enhancing Heart Disease Prediction Accuracy Through Hybrid Machine Learning Methods ”, EAI Endorsed Trans IoT, vol. 10, Mar. 2024.
-2. A. A. BIN ZAINUDDIN, “Enhancing IoT Security: A Synergy of Machine Learning, Artificial Intelligence, and Blockchain”, Data Science Insights, vol. 2, no. 1, Feb. 2024.
+1.Manikandan T., Devi B., Helanvidhya T. A Computer-Aided Diagnosis System for Lung Cancer Detection with Automatic Region Growing, Multistage Feature Selection and Neural Network Classifier. Int. J. Innov. Technol. Explor. Eng. 2019;9:409–413.
+
+2.Han, S., Park, S., Kim, Y., Jang, J., & Song, S. H. (2023). A deep learning approach for lung tumor segmentation in CT scans using 3D CNN with hybrid loss functions. Bioengineering, 10(8), 981. https://doi.org/10.3390/bioengineering10080981 
+
+3.Sun, W., Zheng, B., & Qian, W. (2017). Computer aided lung cancer diagnosis with deep learning algorithms. IEEE Transactions on Medical Imaging, 36(5), 1189–1199. 
+
+
 
 
 
